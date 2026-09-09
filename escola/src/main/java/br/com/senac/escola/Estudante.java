@@ -33,4 +33,14 @@ public class Estudante {
         idade = 2026 - anoNascimento;
     }
     
+    public void imprimir(){
+        System.out.println("Nome: " + nome);
+        System.out.println("Sobrenome: " + sobrenome);
+        System.out.println("Cor: " + cor);
+        System.out.println("Turno: " + turno);
+        System.out.println("Endereco: " + endereco);
+        System.out.println("Nascimento: " + anoNascimento);
+        System.out.println("Idade: " + idade);
+        System.out.println("_________________________________________________________");
+    }
 }
